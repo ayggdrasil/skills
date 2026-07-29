@@ -16,7 +16,7 @@ Trade Callput crypto and synthetic stock/ETF spreads on Base. MCP builds unsigne
 
 ## Supported Underlyings
 
-Crypto: `BTC`, `ETH`. Stock/ETF feed symbols: `TSLA`, `QQQ`, `SPY`, `EWY`, `NVDA`, `COIN`, `CRCL`, `SAMSUNG`, `HYNIX`. Configured option-token contracts cover `BTC`, `ETH`, `TSLA`, `QQQ`, `SPY`, `EWY`, `NVDA`, `COIN`; live tradability is feed-driven. Stock options are synthetic on-chain options, not broker-listed options or tokenized shares.
+Crypto: `BTC`, `ETH`. Currently tradable stock/ETF symbols: `TSLA`, `QQQ`, `SPY`, `EWY`, `NVDA`, `COIN`, `SPCX`, `MU`, `SKHY`. Configured option-token contracts cover all 11 symbols; live tradability is feed-driven. `HYNIX` and `SK Hynix` normalize to `SKHY`. Stock options are synthetic on-chain options, not broker-listed options or tokenized shares.
 
 ## Integration Pattern (Bankr)
 
